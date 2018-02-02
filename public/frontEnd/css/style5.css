@@ -1,0 +1,147 @@
+
+.chatbox{
+  cursor: pointer;
+  width: 356px;
+  height: 82%;
+  background: white;
+  bottom: 0px;
+  position: fixed;
+  right: 5px;
+}
+
+
+.chatbox_head{
+  background: #2c3e50;
+  color: #fff;
+  padding: 10px;
+  font-weight: bold;
+  font-family: Helvetica;
+}
+
+.chatbox_body{
+  overflow: scroll;
+  /*width: 250px;*/
+  width: 100%;
+  height:100%;
+}
+
+.chatbox_body p{
+  font-family: Helvetica;
+  font-size: 15px;
+  position: relative;
+  margin-top: 6px;
+  margin-left: 15px;
+  padding-left: 10px;
+}
+
+.chatbox_body p::before{
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  content: ' ';
+  //background: green;
+  margin-left: -14px;
+  margin-top: 5px;
+}
+/*
+
+.user{
+  cursor: pointer;
+  padding-bottom: 10px;
+}
+
+.msg_box{
+  cursor: pointer;
+  width: 250px;
+  !*height: 325px;*!
+  background: #ecf0f1;
+  bottom: 0px;
+  position: fixed;
+  right: 265px;
+}
+
+.msg_head{
+  background: #3498db;
+  color: #fff;
+  padding: 10px;
+  font-weight: bold;
+  font-family: Helvetica;
+}
+
+.msg_body{
+  overflow-y: scroll;
+  font-family: sans-serif;
+  font-size: 12px;
+  color: white;
+  width: 250px;
+  height:251px;
+}
+
+.msg_snd{
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 20px;
+  padding: 15px;
+  background: #1abc9c;
+  position: relative;
+
+}
+
+.msg_snd::before{
+  content: '';
+	position: absolute;
+	left: 0;
+	top: 50%;
+	width: 0;
+	height: 0;
+	border: 10px solid transparent;
+	border-right-color: #1abc9c;
+	border-left: 0;
+	margin-top: -10px;
+	margin-left: -10px;
+}
+
+.msg_rcv{
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 20px;
+  padding: 15px;
+  background: #f1c40f;
+  position: relative;
+
+}
+
+.msg_rcv::before{
+  content: '';
+	position: absolute;
+	right: 0;
+	top: 50%;
+	width: 0;
+	height: 0;
+	border: 10px solid transparent;
+	border-left-color: #f1c40f;
+	border-right: 0;
+	margin-top: -10px;
+	margin-right: -10px;
+}
+
+.msg_footer textarea{
+  border-color: #ecf0f1;
+  overflow: hidden;
+  resize: none;
+}
+
+.msg_input{
+  width: 100%;
+  padding: 3px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+*/
+
+
+.close{
+  float: right;
+}
